@@ -1,0 +1,54 @@
+.navbar{
+  background-color: #2C3E50;
+}
+.footer-cont{
+  background-color: #2C3E50;
+}
+.right{
+  background-color: #0B1015;
+}
+.home{
+  background-color: #1ABC9C;
+}
+.line{
+  width: 250px;
+  height: 3px;
+  background-color: white;
+margin:20px auto;
+position: relative;
+}
+.line-icon{
+  background-color:#1ABC9C ;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50% , 50%);
+  padding: 10px;
+  border-radius: 50%;
+}
+.about{
+  background-color:#1ABC9C ;
+}
+.port-item:hover .item-layer{
+opacity: 1;
+}
+
+.item-layer{
+  background-color: rgba(26, 188, 156,.8);
+  opacity: 0;
+  transition: all .5s;
+
+}
+
+.port-layer{
+  background-color: rgba(44, 62, 80,.3);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  
+}
+.error-bg{
+  background-color: #1ABC9C;
+}
